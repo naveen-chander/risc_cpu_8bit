@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7326754388fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wave_markers>
+      <marker time="11929961000" label="" />
+      <marker time="5579767000" label="" />
+      <marker time="9245136000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_top/PRGM_MODE_SEL" type="logic">
+      <obj_property name="ElementShortName">PRGM_MODE_SEL</obj_property>
+      <obj_property name="ObjectShortName">PRGM_MODE_SEL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/U0/inst_blk_mem_gen/enb" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+      <obj_property name="label">I_MEM_RE</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/ena" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+      <obj_property name="label">I_MEM_EN</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/U0/inst_blk_mem_gen/addra" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+      <obj_property name="label">I_MEM_ADDR</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/doutb" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+      <obj_property name="label">I_MEM_DOUT</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus138" type="vbus">
+      <obj_property name="label">PR_STATE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[11] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[11] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[11] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[10] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[10] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[10] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[9] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[9] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[9] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[8] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[8] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[8] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[7] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[7] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[7] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[6] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[6] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[6] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[5] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[5] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[5] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/out[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/out[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/out[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[1] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[1] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[1] </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/UUT/CONTROL_UNIT_RISC/\FSM_onehot_pr_state_reg_n_0_[0] " type="logic">
+         <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg_n_0_[0] </obj_property>
+         <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg_n_0_[0] </obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top/INTERRUPT" type="logic">
+      <obj_property name="ElementShortName">INTERRUPT</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/lvl_2_pul_RISC/\FSM_onehot_pr_state_reg[0] " type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">\FSM_onehot_pr_state_reg[0] </obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_pr_state_reg[0] </obj_property>
+      <obj_property name="label">INTR_SYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[1] " type="array">
+      <obj_property name="ElementShortName">\reg[1] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[1] [7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[6] " type="array">
+      <obj_property name="ElementShortName">\reg[6] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[6] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/addra" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+      <obj_property name="label">D_MEM_ADDR</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/ena" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+      <obj_property name="label">D_MEM_CS</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/wea" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="label">DMEM_WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/dina" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+      <obj_property name="label">D_MEM_DIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[0] " type="array">
+      <obj_property name="ElementShortName">\reg[0] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[0] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[10] " type="array">
+      <obj_property name="ElementShortName">\reg[10] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[10] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/dina" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+      <obj_property name="label">I_MEM_DIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/doutb" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+      <obj_property name="label">D_MEM_DOUT</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[3] " type="array">
+      <obj_property name="ElementShortName">\reg[3] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[3] [7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/U0/enb" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+      <obj_property name="label">D_MEM_RE</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/I_MEM/wea" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="label">I_MEM_WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[11] " type="array">
+      <obj_property name="ElementShortName">\reg[11] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[11] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[12] " type="array">
+      <obj_property name="ElementShortName">\reg[12] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[12] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[2] " type="array">
+      <obj_property name="ElementShortName">\reg[2] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[2] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/reg_file_RISC/\reg[5] " type="array">
+      <obj_property name="ElementShortName">\reg[5] [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\reg[5] [7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/UUT/mem_ctrl_RISC/D_MEM/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+</wave_config>
